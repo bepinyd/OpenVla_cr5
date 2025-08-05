@@ -7,6 +7,23 @@
 <xacro:include filename="ros2_control.xacro"/>
 <xacro:include filename="gazebo.xacro"/>
 
+<!-- Define color materials -->
+<material name="dobot_orange">
+  <color rgba="1.0 0.4 0.0 1.0"/>
+</material>
+
+<material name="dobot_black">
+  <color rgba="0.2 0.2 0.2 1.0"/>
+</material>
+
+<material name="dobot_grey">
+  <color rgba="0.6 0.6 0.6 1.0"/>
+</material>
+
+<material name="dobot_white">
+  <color rgba="0.9 0.9 0.9 1.0"/>
+</material>
+
  <link name="world"/>
   <link name="base_link">
     <inertial>
@@ -25,10 +42,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/base_link.dae" />
       </geometry>
-      <material
-        name="">
-        <color rgba="0 0 0 1" />
-      </material>
+      <material name="dobot_black"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -61,10 +75,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/Link1.dae" />
       </geometry>
-      <material
-        name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="dobot_orange"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -99,10 +110,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/Link2.dae" />
       </geometry>
-      <material
-        name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="dobot_white"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -137,10 +145,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/Link3.dae" />
       </geometry>
-      <material
-        name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="dobot_orange"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"  rpy="0 0 0" />
@@ -175,9 +180,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/Link4.dae" />
       </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="dobot_white"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -212,9 +215,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/Link5.dae" />
       </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="dobot_orange"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -249,9 +250,7 @@
       <geometry>
         <mesh filename="package://dofbot_description/meshes2/cr5/Link6.dae" />
       </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
+      <material name="dobot_black"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
