@@ -1,0 +1,20 @@
+[1.114s] Invoking command in '/home/om/OpenVla_cr5/src/openvla_ros_interface': PYTHONPATH=/home/om/OpenVla_cr5/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/om/OpenVla_cr5/build/openvla_ros_interface/build install --record /home/om/OpenVla_cr5/build/openvla_ros_interface/install.log --single-version-externally-managed install_data
+[1.430s] running egg_info
+[1.432s] writing ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/PKG-INFO
+[1.433s] writing dependency_links to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/dependency_links.txt
+[1.433s] writing entry points to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/entry_points.txt
+[1.433s] writing requirements to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/requires.txt
+[1.433s] writing top-level names to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/top_level.txt
+[1.437s] reading manifest file '../../build/openvla_ros_interface/openvla_ros_interface.egg-info/SOURCES.txt'
+[1.441s] writing manifest file '../../build/openvla_ros_interface/openvla_ros_interface.egg-info/SOURCES.txt'
+[1.441s] running build
+[1.441s] running build_py
+[1.442s] running install
+[1.442s] running install_lib
+[1.444s] running install_data
+[1.444s] running install_egg_info
+[1.446s] removing '/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages/openvla_ros_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[1.447s] Copying ../../build/openvla_ros_interface/openvla_ros_interface.egg-info to /home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages/openvla_ros_interface-0.0.0-py3.10.egg-info
+[1.448s] running install_scripts
+[1.478s] writing list of installed files to '/home/om/OpenVla_cr5/build/openvla_ros_interface/install.log'
+[1.540s] Invoked command in '/home/om/OpenVla_cr5/src/openvla_ros_interface' returned '0': PYTHONPATH=/home/om/OpenVla_cr5/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/om/OpenVla_cr5/build/openvla_ros_interface/build install --record /home/om/OpenVla_cr5/build/openvla_ros_interface/install.log --single-version-externally-managed install_data

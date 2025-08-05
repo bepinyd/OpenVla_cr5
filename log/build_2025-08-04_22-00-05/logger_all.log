@@ -1,0 +1,252 @@
+[0.279s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.279s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75545c2caf80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75545c4a09d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75545c4a09d0>>)
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.628s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/om/OpenVla_cr5'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dofbot_description' with type 'ros.ament_cmake' and name 'dofbot_description'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dofbot_moveit' with type 'ros.ament_cmake' and name 'dofbot_moveit'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'ros'
+[0.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openvla_ros_interface' with type 'ros.ament_python' and name 'openvla_ros_interface'
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.711s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/om/OpenVla_cr5/install
+[0.721s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/om/dobot_ws/install
+[0.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 461 installed packages in /opt/ros/humble
+[0.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_target' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.867s] DEBUG:colcon.colcon_core.verb:Building package 'dofbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/OpenVla_cr5/build/dofbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/OpenVla_cr5/install/dofbot_description', 'merge_install': False, 'path': '/home/om/OpenVla_cr5/src/dofbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.867s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.868s] DEBUG:colcon.colcon_core.verb:Building package 'dofbot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/OpenVla_cr5/build/dofbot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/OpenVla_cr5/install/dofbot_moveit', 'merge_install': False, 'path': '/home/om/OpenVla_cr5/src/dofbot_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_target' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.868s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.869s] DEBUG:colcon.colcon_core.verb:Building package 'openvla_ros_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/om/OpenVla_cr5/build/openvla_ros_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/om/OpenVla_cr5/install/openvla_ros_interface', 'merge_install': False, 'path': '/home/om/OpenVla_cr5/src/openvla_ros_interface', 'symlink_install': False, 'test_result_base': None}
+[0.869s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.870s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.871s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/OpenVla_cr5/src/dofbot_description' with build type 'ament_cmake'
+[0.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/OpenVla_cr5/src/dofbot_description'
+[0.875s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.882s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/om/OpenVla_cr5/src/dofbot_moveit' with build type 'ament_cmake'
+[0.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/om/OpenVla_cr5/src/dofbot_moveit'
+[0.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.890s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/om/OpenVla_cr5/src/openvla_ros_interface' with build type 'ament_python'
+[0.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('openvla_ros_interface', 'ament_prefix_path')
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/hook/ament_prefix_path.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/hook/ament_prefix_path.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/hook/ament_prefix_path.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/OpenVla_cr5/build/dofbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/om/OpenVla_cr5/build/dofbot_description -- -j8 -l8
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/OpenVla_cr5/build/dofbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/om/OpenVla_cr5/build/dofbot_moveit -- -j8 -l8
+[1.270s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/om/OpenVla_cr5/src/openvla_ros_interface'
+[1.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/OpenVla_cr5/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/om/OpenVla_cr5/build/dofbot_moveit -- -j8 -l8
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/OpenVla_cr5/build/dofbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/om/OpenVla_cr5/build/dofbot_moveit
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/OpenVla_cr5/build/dofbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/om/OpenVla_cr5/build/dofbot_description -- -j8 -l8
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/OpenVla_cr5/build/dofbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/om/OpenVla_cr5/build/dofbot_description
+[1.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_moveit)
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/OpenVla_cr5/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/om/OpenVla_cr5/build/dofbot_moveit
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit' for CMake module files
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit' for CMake config files
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_moveit', 'cmake_prefix_path')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/lib/python3.10/site-packages'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/bin'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.zsh'
+[1.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/OpenVla_cr5/install/dofbot_moveit/share/colcon-core/packages/dofbot_moveit)
+[1.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_moveit)
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit' for CMake module files
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit' for CMake config files
+[1.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_moveit', 'cmake_prefix_path')
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.dsv'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.sh'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/bin'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/lib/python3.10/site-packages'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_moveit/bin'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.dsv'
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.bash'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.zsh'
+[1.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/OpenVla_cr5/install/dofbot_moveit/share/colcon-core/packages/dofbot_moveit)
+[1.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_description)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description' for CMake module files
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/OpenVla_cr5/build/dofbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/om/OpenVla_cr5/build/dofbot_description
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_description', 'cmake_prefix_path')
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.sh'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/bin'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/lib/pkgconfig/dofbot_description.pc'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/lib/python3.10/site-packages'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/bin'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.sh'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.bash'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.zsh'
+[1.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/OpenVla_cr5/install/dofbot_description/share/colcon-core/packages/dofbot_description)
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_description)
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description' for CMake module files
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description' for CMake config files
+[1.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_description', 'cmake_prefix_path')
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.sh'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/bin'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/lib/pkgconfig/dofbot_description.pc'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/lib/python3.10/site-packages'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/dofbot_description/bin'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.sh'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.bash'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/dofbot_description/share/dofbot_description/package.zsh'
+[1.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/OpenVla_cr5/install/dofbot_description/share/colcon-core/packages/dofbot_description)
+[1.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/om/OpenVla_cr5/src/openvla_ros_interface': PYTHONPATH=/home/om/OpenVla_cr5/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/om/OpenVla_cr5/build/openvla_ros_interface/build install --record /home/om/OpenVla_cr5/build/openvla_ros_interface/install.log --single-version-externally-managed install_data
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface' for CMake module files
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/om/OpenVla_cr5/src/openvla_ros_interface' returned '0': PYTHONPATH=/home/om/OpenVla_cr5/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/om/OpenVla_cr5/build/openvla_ros_interface/build install --record /home/om/OpenVla_cr5/build/openvla_ros_interface/install.log --single-version-externally-managed install_data
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface' for CMake config files
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface/lib'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface/bin'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/pkgconfig/openvla_ros_interface.pc'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface/lib/python3.10/site-packages'
+[2.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('openvla_ros_interface', 'pythonpath')
+[2.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/hook/pythonpath.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/hook/pythonpath.dsv'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/hook/pythonpath.sh'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/om/OpenVla_cr5/install/openvla_ros_interface/bin'
+[2.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openvla_ros_interface)
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/package.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/package.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/package.sh'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/package.bash'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/om/OpenVla_cr5/install/openvla_ros_interface/share/openvla_ros_interface/package.zsh'
+[2.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/om/OpenVla_cr5/install/openvla_ros_interface/share/colcon-core/packages/openvla_ros_interface)
+[2.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.323s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.334s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.351s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/OpenVla_cr5/install/local_setup.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/om/OpenVla_cr5/install/_local_setup_util_ps1.py'
+[2.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/OpenVla_cr5/install/setup.ps1'
+[2.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/OpenVla_cr5/install/local_setup.sh'
+[2.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/om/OpenVla_cr5/install/_local_setup_util_sh.py'
+[2.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/OpenVla_cr5/install/setup.sh'
+[2.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/OpenVla_cr5/install/local_setup.bash'
+[2.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/OpenVla_cr5/install/setup.bash'
+[2.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/om/OpenVla_cr5/install/local_setup.zsh'
+[2.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/om/OpenVla_cr5/install/setup.zsh'

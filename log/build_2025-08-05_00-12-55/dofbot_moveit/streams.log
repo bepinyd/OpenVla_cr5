@@ -1,0 +1,30 @@
+[0.028s] Invoking command in '/home/om/OpenVla_cr5/build/dofbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/om/OpenVla_cr5/build/dofbot_moveit -- -j8 -l8
+[0.434s] Invoked command in '/home/om/OpenVla_cr5/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --build /home/om/OpenVla_cr5/build/dofbot_moveit -- -j8 -l8
+[0.437s] Invoking command in '/home/om/OpenVla_cr5/build/dofbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/om/OpenVla_cr5/build/dofbot_moveit
+[0.449s] -- Install configuration: ""
+[0.449s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config
+[0.449s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/moveit_controllers.yaml
+[0.449s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/joint_limits.yaml
+[0.449s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/pilz_cartesian_limits.yaml
+[0.449s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/initial_positions.yaml
+[0.449s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/cr5_robot.srdf
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/moveit.rviz
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/config/kinematics.yaml
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/launch
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/launch/launch_moveit.launch.py
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/ament_index/resource_index/package_run_dependencies/dofbot_moveit
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/ament_index/resource_index/parent_prefix_path/dofbot_moveit
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.sh
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.dsv
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/environment/path.sh
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/environment/path.dsv
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/local_setup.bash
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/local_setup.sh
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/local_setup.zsh
+[0.450s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/local_setup.dsv
+[0.451s] -- Installing: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.dsv
+[0.451s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/ament_index/resource_index/packages/dofbot_moveit
+[0.451s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake
+[0.451s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake
+[0.451s] -- Up-to-date: /home/om/OpenVla_cr5/install/dofbot_moveit/share/dofbot_moveit/package.xml
+[0.471s] Invoked command in '/home/om/OpenVla_cr5/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/om/OpenVla_cr5/install/openvla_ros_interface:/home/om/dobot_ws/install/servo_action:/home/om/dobot_ws/install/dobot_moveit:/home/om/dobot_ws/install/dobot_demo:/opt/ros/humble /usr/bin/cmake --install /home/om/OpenVla_cr5/build/dofbot_moveit
