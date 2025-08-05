@@ -79,7 +79,7 @@
 
     <!-- Green Cube -->
     <model name="green_cube">
-      <pose>0.20 -0.10 0.9 0 0 0</pose>
+      <pose>0.30 -0.30 0.9 0 0 0</pose>
       <link name="link">
         <inertial>
           <mass>0.1</mass>
@@ -106,11 +106,34 @@
         </visual>
       </link>
     </model>
-
+    <include>
+      <uri>
+      https://fuel.gazebosim.org/1.0/OpenRobotics/models/Dining Table
+      </uri>
+      </include>
+      <include>
+        <uri>
+        https://fuel.gazebosim.org/1.0/GoogleResearch/models/TABLEWARE_SET_5CHkPjjxVpp
+        </uri>
+        <pose>0.0 0.0 0.8 0 0 0</pose>
+        </include>
+        <!-- <include>
+        <uri>
+        https://fuel.gazebosim.org/1.0/chapulina/models/Beer
+        </uri>
+        <pose>0.5 0.0 0.78 0 0 0</pose>
+        </include>   -->
+        
+        <include>
+            <uri>
+            https://fuel.gazebosim.org/1.0/myoan/models/Movable green coke can
+            </uri>
+        <pose>-0.3 -0.2 0.9 0 0 0</pose>
+        </include>  
     <!-- Back Wall -->
     <model name="back_wall">
       <static>true</static>
-      <pose>0 -3 1.0 0 0 0</pose>
+      <pose>0 -2.8 1.0 0 0 0</pose>
       <link name="link">
         <collision name="collision">
           <geometry>
@@ -130,7 +153,7 @@
     </model>
     <model name="camera">
       <static>true</static>
-      <pose>0 1.4 1.6 0 0.523 3.14159</pose>
+      <pose>0 2.6 1.8 0 0.2 -1.573</pose>
       <link name="camera_link">
         <inertial>
           <mass>0.1</mass>
