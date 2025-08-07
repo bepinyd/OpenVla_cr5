@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'openvla_ik = openvla_ros_interface.openvla_ik:main',
         ],
     },
 )

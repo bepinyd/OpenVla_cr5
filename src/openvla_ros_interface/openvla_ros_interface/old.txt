@@ -1,25 +1,21 @@
-import os
-import io
-import base64
-import requests
-from datetime import datetime
-import cv2 
 import rclpy
+from rclpy.action import ActionClient
+from control_msgs.action import FollowJointTrajectory
 from rclpy.node import Node
 from rclpy.executors import SingleThreadedExecutor
-from rclpy.action import ActionClient
 from sensor_msgs.msg import Image, JointState
 from geometry_msgs.msg import PoseStamped
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from moveit_msgs.srv import GetPositionIK
 from moveit_msgs.msg import PositionIKRequest, RobotState
-from control_msgs.action import FollowJointTrajectory
 from tf_transformations import quaternion_from_euler, euler_from_quaternion
 from tf2_ros import Buffer, TransformListener
 from builtin_interfaces.msg import Duration
-from cv_bridge import CvBridge
-from PIL import Image as PILImage
 
+import requests
+import base64
+import cv2
+from cv_bridge import CvBridge
 
 class OpenVLAIKPlanner(Node):
     def __init__(self):
@@ -34,22 +30,28 @@ class OpenVLAIKPlanner(Node):
         # IK service client
         self.ik_client = self.create_client(GetPositionIK, '/compute_ik')
         
-        # Action client for joint trajectory execution
-        self.traj_client = ActionClient(
-            self,
-            FollowJointTrajectory,
-            '/cr5_group_controller/follow_joint_trajectory'
+        # Joint trajectory publisher
+        self.trajectory_pub = self.create_publisher(
+            JointTrajectory, 
+            '/cr5_group_controller/joint_trajectory', 
+            10
         )
-
+        
         # Image subscription
         self.sub = self.create_subscription(
-            Image, 'camera/image_raw', self.callback, 2
+            Image, 
+            'camera/image_raw', 
+            self.callback, 
+            2
         )
 
         # Joint state subscription
         self.current_joint_state = None
         self.joint_state_sub = self.create_subscription(
-            JointState, 'joint_states', self.joint_state_callback, 2
+            JointState, 
+            'joint_states', 
+            self.joint_state_callback, 
+            2
         )
 
         # TF setup
@@ -57,13 +59,10 @@ class OpenVLAIKPlanner(Node):
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
         # OpenVLA API
-        self.api_url = "https://fb13071c0fd8.ngrok-free.app/predict"
+        self.api_url = "https://2508bd6d7716.ngrok-free.app/predict"
         
         # Joint names (matching controller configuration)
-        self.joint_names = [
-            'joint1', 'joint2', 'joint3',
-            'joint4', 'joint5', 'joint6'
-        ]
+        self.joint_names = ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6']
         
         self.get_logger().info("OpenVLA IK Planner initialized")
 
@@ -94,9 +93,9 @@ class OpenVLAIKPlanner(Node):
         if self.processing:
             return
         self.processing = True
-
+        
         try:
-            instruction = "Pick up the red cube"
+            instruction = "move the end-effector to the very bottom near the table"
 
             # Convert image and get OpenVLA prediction
             cv_image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
@@ -122,15 +121,15 @@ class OpenVLAIKPlanner(Node):
             target_pose.header.frame_id = self.PLANNING_FRAME
             target_pose.header.stamp = self.get_clock().now().to_msg()
 
-            # Position update
+            # Add position deltas
             target_pose.pose.position.x = current_pose.pose.position.x + delta[0]
             target_pose.pose.position.y = current_pose.pose.position.y + delta[1]
             target_pose.pose.position.z = current_pose.pose.position.z + delta[2]
 
-            # Orientation update
-            cq = current_pose.pose.orientation
+            # Add orientation deltas to current orientation
+            current_q = current_pose.pose.orientation
             roll, pitch, yaw = euler_from_quaternion([
-                cq.x, cq.y, cq.z, cq.w
+                current_q.x, current_q.y, current_q.z, current_q.w
             ])
             new_q = quaternion_from_euler(
                 roll + delta[3],
@@ -142,116 +141,103 @@ class OpenVLAIKPlanner(Node):
             target_pose.pose.orientation.z = new_q[2]
             target_pose.pose.orientation.w = new_q[3]
 
-            # Solve IK and send trajectory
-            self.solve_ik_and_send_goal(target_pose)
+            # Solve IK and publish trajectory
+            self.solve_ik_and_publish(target_pose)
 
         except Exception as e:
-            self.get_logger().error(f"Callback error: {e}")
+            self.get_logger().error(f"Callback error: {str(e)}")
+        finally:
             self.processing = False
 
-    def solve_ik_and_send_goal(self, target_pose):
+    def solve_ik_and_publish(self, target_pose):
         if not self.ik_client.wait_for_service(timeout_sec=5.0):
             self.get_logger().error("IK service not available")
-            self.processing = False
             return
 
         if self.current_joint_state is None:
             self.get_logger().error("Current joint state not available")
-            self.processing = False
             return
 
-        # Build IK request
-        ik_req = PositionIKRequest()
-        ik_req.group_name = self.PLANNING_GROUP_ARM
-        ik_req.pose_stamped = target_pose
-        ik_req.timeout = Duration(sec=5)
+        # Create IK request
+        ik_request = PositionIKRequest()
+        ik_request.group_name = self.PLANNING_GROUP_ARM
+        ik_request.pose_stamped = target_pose
+        ik_request.timeout = Duration(sec=5)
 
-        rs = RobotState()
-        rs.joint_state = self.current_joint_state
-        ik_req.robot_state = rs
+        # Set robot state (current joint positions as seed)
+        robot_state = RobotState()
+        robot_state.joint_state = self.current_joint_state
+        ik_request.robot_state = robot_state
 
+        # Create service request
         request = GetPositionIK.Request()
-        request.ik_request = ik_req
+        request.ik_request = ik_request
 
+        # Call IK service
         self.get_logger().info("Calling IK service...")
         future = self.ik_client.call_async(request)
-        future.add_done_callback(self.ik_response_callback)
+        
+        def ik_response_callback(future):
+            try:
+                response = future.result()
+                if response.error_code.val == 1:  # SUCCESS
+                    self.get_logger().info("IK solution found")
+                    self.publish_joint_trajectory(response.solution.joint_state)
+                else:
+                    self.get_logger().error(f"IK failed with error code: {response.error_code.val}")
+            except Exception as e:
+                self.get_logger().error(f"IK service call failed: {e}")
+        
+        future.add_done_callback(ik_response_callback)
 
-    def ik_response_callback(self, future):
-        try:
-            resp = future.result()
-            if resp.error_code.val != 1:
-                self.get_logger().error(f"IK failed, code {resp.error_code.val}")
-                self.processing = False
-                return
+    def publish_joint_trajectory(self, joint_state):
+        # Debug: Print IK solution joint names
+        self.get_logger().info(f"IK solution joint names: {joint_state.name}")
+        self.get_logger().info(f"Expected joint names: {self.joint_names}")
+        
+        # Create and zero the header stamp
+        trajectory = JointTrajectory()
+        trajectory.header.stamp.sec = 0
+        trajectory.header.stamp.nanosec = 0
 
-            # Extract positions in correct order
-            positions = []
-            for name in self.joint_names:
-                idx = resp.solution.joint_state.name.index(name)
-                positions.append(resp.solution.joint_state.position[idx])
+        # Use your hard-coded joint order
+        trajectory.joint_names = self.joint_names
 
-            self.get_logger().info("IK solution found, sending trajectory goal")
-            self.send_trajectory_goal(positions)
-
-        except Exception as e:
-            self.get_logger().error(f"IK callback error: {e}")
-            self.processing = False
-
-    def send_trajectory_goal(self, joint_positions):
-        # Build FollowJointTrajectory goal
-        goal_msg = FollowJointTrajectory.Goal()
-        traj = JointTrajectory()
-        traj.joint_names = self.joint_names
-
+        # Build a single trajectory point
         point = JointTrajectoryPoint()
+
+        # Map IK positions into your hard-coded list
+        joint_positions = []
+        for name in self.joint_names:
+            idx = joint_state.name.index(name)
+            pos = joint_state.position[idx]
+            joint_positions.append(pos)
+            self.get_logger().info(f"Mapped {name}: {pos}")
+
         point.positions = joint_positions
+        point.velocities    = [0.0] * len(joint_positions)  
+        point.accelerations = [0.0] * len(joint_positions)
+        
+        # Give it 2 seconds to execute (your manual test used sec:2)
         point.time_from_start.sec = 2
-        traj.points = [point]
+        point.time_from_start.nanosec = 0
 
-        goal_msg.trajectory = traj
+        trajectory.points = [point]
 
-        # Wait for action server
-        if not self.traj_client.wait_for_server(timeout_sec=5.0):
-            self.get_logger().error("Trajectory action server not available")
-            self.processing = False
-            return
+        # Publish
+        self.trajectory_pub.publish(trajectory)
+        self.get_logger().info(f"Published joint trajectory: {joint_positions}")
 
-        send_goal = self.traj_client.send_goal_async(
-            goal_msg,
-            feedback_callback=None
-        )
-        send_goal.add_done_callback(self.goal_response_callback)
-
-    def goal_response_callback(self, future):
-        goal_handle = future.result()
-        if not goal_handle.accepted:
-            self.get_logger().error("Trajectory goal rejected")
-            self.processing = False
-            return
-
-        result_future = goal_handle.get_result_async()
-        result_future.add_done_callback(self.result_callback)
-
-    def result_callback(self, future):
-        result = future.result().result
-        if result.error_code == 0:
-            self.get_logger().info("Trajectory execution succeeded")
-        else:
-            self.get_logger().error(f"Trajectory execution failed: {result.error_code}")
-
-        # Now allow processing the next image
-        self.processing = False
 
     def joint_state_callback(self, msg):
         self.current_joint_state = msg
-
 
 def main(args=None):
     rclpy.init(args=args)
     node = OpenVLAIKPlanner()
     executor = SingleThreadedExecutor()
     executor.add_node(node)
+    
     try:
         executor.spin()
     except KeyboardInterrupt:
@@ -260,7 +246,6 @@ def main(args=None):
         executor.shutdown()
         node.destroy_node()
         rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
