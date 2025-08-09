@@ -4,6 +4,9 @@ controller_manager:
 
     cr5_group_controller:
       type: joint_trajectory_controller/JointTrajectoryController
+    
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -19,6 +22,16 @@ cr5_group_controller:
       - joint6
     command_interfaces:
       - position
+    state_interfaces:
+      - position
+      - velocity
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - robotiq_85_left_knuckle_joint
+    command_interfaces:
+      - position 
     state_interfaces:
       - position
       - velocity

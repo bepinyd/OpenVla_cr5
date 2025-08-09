@@ -166,5 +166,5 @@ def generate_launch_description():
         # ros2_control_node,  # CRITICAL: This must be included
         joint_state_broadcaster_spawner,
         cr5_group_controller,
-        # gripper_controller
+        gripper_controller
     ])

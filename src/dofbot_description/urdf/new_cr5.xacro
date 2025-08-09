@@ -6,6 +6,7 @@
 
 <xacro:include filename="ros2_control.xacro"/>
 <xacro:include filename="gazebo.xacro"/>
+<xacro:include filename="gripper.xacro"/>
 
 <!-- Define color materials -->
 <material name="dobot_orange">
