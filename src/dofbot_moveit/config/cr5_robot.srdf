@@ -10,10 +10,12 @@
        <joint name="joint6"/>
     </group>
 
-    <!-- <group name="gripper">
-     <joint name="joint6"/>
+    
+
+    <group name="gripper">
+     <joint name="robotiq_85_left_knuckle_joint"/>
     </group>
-    -->
+   
     <group_state name="home" group="arm">
         <joint name="joint1" value="0"/>
         <joint name="joint2" value="0"/>
@@ -23,10 +25,10 @@
         <joint name="joint6" value="0"/>
         
     </group_state>
-<!-- 
+
     <group_state name="home" group="gripper">
-      <joint name="joint6" value="0"/>
-    </group_state> -->
+      <joint name="robotiq_85_left_knuckle_joint" value="0"/>
+    </group_state>
 
     <!-- Disable self-collisions between adjacent links -->
     <disable_collisions link1="base_link" link2="Link1" reason="Adjacent"/>
@@ -35,6 +37,7 @@
     <disable_collisions link1="Link3" link2="Link4" reason="Adjacent"/>
     <disable_collisions link1="Link4" link2="Link5" reason="Adjacent"/>
     <disable_collisions link1="Link5" link2="Link6" reason="Adjacent"/>
+    <disable_collisions link1="Link6" link2="robotiq_85_left_knuckle_joint" reason="Adjacent"/>
 
     <!-- Optionally disable collisions for common false positives -->
     <disable_collisions link1="Link2" link2="Link4" reason="Never"/>
