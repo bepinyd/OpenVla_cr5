@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+   <gazebo reference="base_link">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="Link1">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="Link2">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="Link3">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="Link4">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="Link5">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="Link6">
+        <gravity>false</gravity>
+        <selfCollide>true</selfCollide>
+    </gazebo> 
+    <gazebo>
+  <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+    <robot_param>robot_description</robot_param>
+    <robot_param_node>robot_state_publisher</robot_param_node>
+    <parameters>$(find dofbot_description)/config/ros2_controllers.yaml</parameters>
+  </plugin>
+</gazebo>
+     <!-- <gazebo>
+      <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <parameters>$(find dofbot_description)/config/ros2_controllers.yaml</parameters>
+      </plugin>
+      </gazebo> -->
+
+    </robot>

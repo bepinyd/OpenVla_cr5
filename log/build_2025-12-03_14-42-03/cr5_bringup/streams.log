@@ -1,0 +1,37 @@
+[0.025s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup -- -j12 -l12
+[0.264s] [ 25%] Built target joystick_control_node
+[0.293s] [100%] Built target cr5_bringup_node
+[0.307s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup -- -j12 -l12
+[0.309s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup
+[0.495s] -- Install configuration: ""
+[0.495s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/cr5_bringup/joystick_control_node
+[0.496s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/cr5_bringup/cr5_bringup_node
+[0.497s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include/
+[0.497s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup
+[0.498s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/tcp_socket.h
+[0.498s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/cr_robot_ros2.h
+[0.499s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/command.h
+[0.499s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/parseTool.h
+[0.499s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//joystick_control.hpp
+[0.499s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/launch
+[0.500s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/launch/joystick.launch.py
+[0.500s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/launch/cr5_bringup.launch.py
+[0.500s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/config
+[0.500s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/config/joy.yaml
+[0.501s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/config/param.json
+[0.501s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/ament_index/resource_index/package_run_dependencies/cr5_bringup
+[0.501s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/ament_index/resource_index/parent_prefix_path/cr5_bringup
+[0.501s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/ament_prefix_path.sh
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/ament_prefix_path.dsv
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/path.sh
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/path.dsv
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.bash
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.sh
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.zsh
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.dsv
+[0.502s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.dsv
+[0.502s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/ament_index/resource_index/packages/cr5_bringup
+[0.503s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/cmake/cr5_bringupConfig.cmake
+[0.503s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/cmake/cr5_bringupConfig-version.cmake
+[0.503s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.xml
+[0.505s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2:/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup

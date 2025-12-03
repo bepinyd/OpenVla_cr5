@@ -1,0 +1,102 @@
+[0.008s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake /home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup -DCMAKE_INSTALL_PREFIX=/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup
+[0.065s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.065s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.065s]   CMake.
+[0.065s] 
+[0.065s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.066s]   to tell CMake that the project requires at least <min> but has been updated
+[0.066s]   to work with policies introduced by <max> or earlier.
+[0.066s] 
+[0.066s] [0m
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.243s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.434s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.514s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.562s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.567s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.577s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.655s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.658s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.780s] -- Found FastRTPS: /opt/ros/humble/include
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.890s] -- Found Threads: TRUE
+[0.951s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.999s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.039s] -- Found dobot_msgs_v4: 0.0.0 (/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/cmake)
+[1.067s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.132s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.132s] -- Configured cppcheck include dirs: /home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup/include;/home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup/../../../install/dobot_msgs_v4/include;$<BUILD_INTERFACE:/home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup/include>
+[1.132s] -- Configured cppcheck exclude dirs and/or files: 
+[1.133s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.133s] -- Added test 'lint_cmake' to check CMake code style
+[1.134s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.136s] -- Added test 'uncrustify' to check C / C++ code style
+[1.136s] -- Configured uncrustify additional arguments: 
+[1.136s] -- Added test 'xmllint' to check XML markup files
+[1.138s] -- Configuring done (1.1s)
+[1.153s] -- Generating done (0.0s)
+[1.156s] -- Build files have been written to: /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup
+[1.166s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake /home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup -DCMAKE_INSTALL_PREFIX=/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup
+[1.168s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup -- -j12 -l12
+[1.245s] [ 12%] [32mBuilding CXX object CMakeFiles/cr5_bringup_node.dir/src/main.cpp.o[0m
+[1.245s] [ 25%] [32mBuilding CXX object CMakeFiles/cr5_bringup_node.dir/src/tcp_socket.cpp.o[0m
+[1.245s] [ 62%] [32mBuilding CXX object CMakeFiles/joystick_control_node.dir/src/joystick_control.cpp.o[0m
+[1.245s] [ 62%] [32mBuilding CXX object CMakeFiles/cr5_bringup_node.dir/src/cr_robot_ros2.cpp.o[0m
+[1.245s] [ 62%] [32mBuilding CXX object CMakeFiles/cr5_bringup_node.dir/src/parseTool.cpp.o[0m
+[1.245s] [ 75%] [32mBuilding CXX object CMakeFiles/cr5_bringup_node.dir/src/command.cpp.o[0m
+[8.130s] [ 87%] [1m[32mLinking CXX executable joystick_control_node[0m
+[8.447s] [ 87%] Built target joystick_control_node
+[47.548s] [100%] [1m[32mLinking CXX executable cr5_bringup_node[0m
+[51.380s] [100%] Built target cr5_bringup_node
+[51.390s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup -- -j12 -l12
+[51.391s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup
+[51.448s] -- Install configuration: ""
+[51.448s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/cr5_bringup/joystick_control_node
+[51.452s] -- Set non-toolchain portion of runtime path of "/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/cr5_bringup/joystick_control_node" to ""
+[51.452s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/cr5_bringup/cr5_bringup_node
+[51.482s] -- Set non-toolchain portion of runtime path of "/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/cr5_bringup/cr5_bringup_node" to ""
+[51.482s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include/
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/tcp_socket.h
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/cr_robot_ros2.h
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/command.h
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//dobot_bringup/parseTool.h
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/include//joystick_control.hpp
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/launch
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/launch/joystick.launch.py
+[51.483s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/launch/cr5_bringup.launch.py
+[51.484s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/config
+[51.484s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/config/joy.yaml
+[51.484s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/config/param.json
+[51.484s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/ament_index/resource_index/package_run_dependencies/cr5_bringup
+[51.484s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/ament_index/resource_index/parent_prefix_path/cr5_bringup
+[51.485s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/ament_prefix_path.sh
+[51.485s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/ament_prefix_path.dsv
+[51.485s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/path.sh
+[51.485s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/environment/path.dsv
+[51.485s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.bash
+[51.485s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.sh
+[51.486s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.zsh
+[51.486s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/local_setup.dsv
+[51.486s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.dsv
+[51.486s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/ament_index/resource_index/packages/cr5_bringup
+[51.487s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/cmake/cr5_bringupConfig.cmake
+[51.487s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/cmake/cr5_bringupConfig-version.cmake
+[51.487s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.xml
+[51.489s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup

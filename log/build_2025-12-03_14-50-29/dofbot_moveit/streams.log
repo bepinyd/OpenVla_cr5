@@ -1,0 +1,30 @@
+[0.632s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit -- -j12 -l12
+[1.870s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit -- -j12 -l12
+[1.873s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit
+[2.067s] -- Install configuration: ""
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/joint_limits.yaml
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/moveit_controllers.yaml
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/pilz_cartesian_limits.yaml
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/cr5_robot.srdf
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/initial_positions.yaml
+[2.068s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/moveit.rviz
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/kinematics.yaml
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/launch
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/launch/launch_moveit.launch.py
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/ament_index/resource_index/package_run_dependencies/dofbot_moveit
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/ament_index/resource_index/parent_prefix_path/dofbot_moveit
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.sh
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.dsv
+[2.069s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/path.sh
+[2.070s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/path.dsv
+[2.070s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.bash
+[2.070s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.sh
+[2.071s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.zsh
+[2.071s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.dsv
+[2.071s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.dsv
+[2.071s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/ament_index/resource_index/packages/dofbot_moveit
+[2.072s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake
+[2.072s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake
+[2.072s] -- Up-to-date: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.xml
+[2.305s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop:/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit

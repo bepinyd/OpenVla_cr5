@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/dobot_teleop/dobot_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_teleop/dobot_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_teleop/dobot_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_teleop/dobot_teleop.egg-info/requires.txt
+writing top-level names to ../../build/dobot_teleop/dobot_teleop.egg-info/top_level.txt
+reading manifest file '../../build/dobot_teleop/dobot_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_teleop/dobot_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dobot_teleop/teleop.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build/lib/dobot_teleop
+copying dobot_teleop/__init__.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build/lib/dobot_teleop
+running install
+running install_lib
+copying /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build/lib/dobot_teleop/teleop.py -> /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages/dobot_teleop
+byte-compiling /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages/dobot_teleop/teleop.py to teleop.cpython-310.pyc
+running install_data
+copying resource/dobot_teleop -> /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop
+running install_egg_info
+removing '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages/dobot_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dobot_teleop/dobot_teleop.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages/dobot_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_node script to /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/dobot_teleop
+writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/install.log'

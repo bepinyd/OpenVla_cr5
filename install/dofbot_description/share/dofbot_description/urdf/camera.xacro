@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+    <!-- ============================== -->
+  <!--   RDT2 Wrist Camera (MV-CB016-10UC-C)  -->
+  <!-- ============================== -->
+  
+  <!-- Camera link -->
+  <link name="umi_camera_link">
+    <inertial>
+      <mass value="0.05"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-5" ixy="0" ixz="0" iyy="1e-5" iyz="0" izz="1e-5"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.025 0.025"/>
+      </geometry>
+      <material name="dobot_black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.025 0.025"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Fixed joint connecting camera to Link6 -->
+  <joint name="umi_camera_mount_joint" type="fixed">
+    <parent link="Link6"/>
+    <child  link="umi_camera_link"/>
+    <!-- Adjust placement: in front of gripper -->
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Gazebo sensor definition -->
+  <gazebo reference="umi_camera_link">
+    <sensor name="umi_camera_sensor" type="camera">
+      <update_rate>30</update_rate>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+
+      <camera name="umi_rgb_camera">
+        <!-- IMX273 (1.6MP) = 1440x1080, 155° FOV approximated -->
+        <horizontal_fov>2.7</horizontal_fov>   <!-- ~155° -->
+        <image>
+          <width>1440</width>
+          <height>1080</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.01</near>
+          <far>5.0</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.001</stddev>
+        </noise>
+      </camera>
+       <topic>/umi/image_raw</topic>
+      <gz_frame_id>umi_camera_link</gz_frame_id>
+      
+      <!-- ROS 2 Camera plugin -->
+    </sensor>
+  </gazebo>
+
+</robot>

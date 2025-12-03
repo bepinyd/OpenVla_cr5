@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/PKG-INFO
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/dependency_links.txt
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/entry_points.txt
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/requires.txt
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/top_level.txt
+../../build/record_dataset_cr5/record_dataset_cr5.egg-info/zip-safe
+record_dataset_cr5/__init__.py
+record_dataset_cr5/record.py
+record_dataset_cr5/record_data.py
+resource/record_dataset_cr5
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

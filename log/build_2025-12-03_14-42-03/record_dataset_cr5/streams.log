@@ -1,0 +1,27 @@
+[2.958s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record_dataset_cr5 build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log --single-version-externally-managed install_data
+[3.606s] running egg_info
+[3.651s] writing ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/PKG-INFO
+[3.652s] writing dependency_links to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/dependency_links.txt
+[3.652s] writing entry points to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/entry_points.txt
+[3.653s] writing requirements to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/requires.txt
+[3.653s] writing top-level names to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/top_level.txt
+[3.748s] reading manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+[3.751s] writing manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+[3.751s] running build
+[3.752s] running build_py
+[3.752s] copying record_dataset_cr5/record.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+[3.753s] copying record_dataset_cr5/record_data.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+[3.753s] copying record_dataset_cr5/__init__.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+[3.754s] running install
+[3.763s] running install_lib
+[3.811s] running install_data
+[3.812s] copying resource/record_dataset_cr5 -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/ament_index/resource_index/packages
+[3.812s] copying package.xml -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5
+[3.813s] running install_egg_info
+[3.861s] removing '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5-0.0.0-py3.10.egg-info' (and everything under it)
+[3.861s] Copying ../../build/record_dataset_cr5/record_dataset_cr5.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5-0.0.0-py3.10.egg-info
+[3.864s] running install_scripts
+[3.962s] Installing record_me script to /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/record_dataset_cr5
+[3.962s] Installing record_om script to /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/record_dataset_cr5
+[3.962s] writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log'
+[4.007s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record_dataset_cr5 build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log --single-version-externally-managed install_data

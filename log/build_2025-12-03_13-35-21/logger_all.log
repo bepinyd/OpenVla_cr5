@@ -1,0 +1,548 @@
+[0.261s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.261s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x719894c486a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x719894bc2110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x719894bc2110>>, mixin_verb=('build',))
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.353s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yolo/Desktop/Ros2/Dofbot2'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/cr5_bringup) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cr5_bringup' with type 'ros.ament_cmake' and name 'cr5_bringup'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_moveit2) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_moveit2' with type 'ros.ament_cmake' and name 'dobot_moveit2'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_msgs_v4) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_msgs_v4' with type 'ros.ament_cmake' and name 'dobot_msgs_v4'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_teleop) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_teleop' with type 'ros.ament_python' and name 'dobot_teleop'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_description) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dofbot_description' with type 'ros.ament_cmake' and name 'dofbot_description'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/dofbot_moveit) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dofbot_moveit' with type 'ros.ament_cmake' and name 'dofbot_moveit'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla_ros_interface) by extension 'ros'
+[0.411s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openvla_ros_interface' with type 'ros.ament_python' and name 'openvla_ros_interface'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/record_dataset_cr5) by extension 'ros'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/record_dataset_cr5' with type 'ros.ament_python' and name 'record_dataset_cr5'
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/humble
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'dobot_msgs_v4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_msgs_v4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_msgs_v4', 'symlink_install': False, 'test_result_base': None}
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'dobot_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'dofbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'dofbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'dofbot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.588s] DEBUG:colcon.colcon_core.verb:Building package 'dofbot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'openvla_ros_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'openvla_ros_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface', 'symlink_install': False, 'test_result_base': None}
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'record_dataset_cr5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'record_dataset_cr5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5', 'symlink_install': False, 'test_result_base': None}
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'cmake_target' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'cr5_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.592s] DEBUG:colcon.colcon_core.verb:Building package 'cr5_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'cmake_target' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'dobot_moveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_moveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2', 'merge_install': False, 'path': '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_moveit2', 'symlink_install': False, 'test_result_base': None}
+[0.594s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.596s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_msgs_v4' with build type 'ament_cmake'
+[0.596s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_msgs_v4'
+[0.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_description' with build type 'ament_cmake'
+[0.611s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_description'
+[0.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop' with build type 'ament_python'
+[0.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_teleop', 'ament_prefix_path')
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/hook/ament_prefix_path.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/hook/ament_prefix_path.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/hook/ament_prefix_path.sh'
+[0.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.635s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_moveit' with build type 'ament_cmake'
+[0.635s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_moveit'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface' with build type 'ament_python'
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('openvla_ros_interface', 'ament_prefix_path')
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/hook/ament_prefix_path.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/hook/ament_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/hook/ament_prefix_path.sh'
+[0.670s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.678s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5' with build type 'ament_python'
+[0.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('record_dataset_cr5', 'ament_prefix_path')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/hook/ament_prefix_path.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/hook/ament_prefix_path.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/hook/ament_prefix_path.sh'
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4 -- -j12 -l12
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description -- -j12 -l12
+[1.223s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop'
+[1.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit -- -j12 -l12
+[1.769s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface'
+[1.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.285s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5'
+[2.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description -- -j12 -l12
+[2.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description
+[2.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit -- -j12 -l12
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit
+[2.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4 -- -j12 -l12
+[2.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4
+[2.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_description)
+[2.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description' for CMake module files
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description' for CMake config files
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_description', 'cmake_prefix_path')
+[2.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.ps1'
+[2.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.dsv'
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.sh'
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/bin'
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/lib/pkgconfig/dofbot_description.pc'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/lib/python3.10/site-packages'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/bin'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.ps1'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.dsv'
+[2.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.sh'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.bash'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.zsh'
+[2.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/colcon-core/packages/dofbot_description)
+[2.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_description)
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description' for CMake module files
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description' for CMake config files
+[2.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_description', 'cmake_prefix_path')
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.dsv'
+[2.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/hook/cmake_prefix_path.sh'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/bin'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/lib/pkgconfig/dofbot_description.pc'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/lib/python3.10/site-packages'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/bin'
+[2.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.ps1'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.dsv'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.sh'
+[2.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.bash'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.zsh'
+[2.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/colcon-core/packages/dofbot_description)
+[2.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_moveit)
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit' for CMake module files
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit' for CMake config files
+[2.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_moveit', 'cmake_prefix_path')
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.dsv'
+[2.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.sh'
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/bin'
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc'
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/lib/python3.10/site-packages'
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/bin'
+[2.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.ps1'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.dsv'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.sh'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.bash'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.zsh'
+[2.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/colcon-core/packages/dofbot_moveit)
+[2.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dofbot_moveit)
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit' for CMake module files
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit' for CMake config files
+[2.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit
+[2.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('dofbot_moveit', 'cmake_prefix_path')
+[2.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.ps1'
+[2.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.dsv'
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/hook/cmake_prefix_path.sh'
+[2.902s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/bin'
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/lib/pkgconfig/dofbot_moveit.pc'
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/lib/python3.10/site-packages'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/bin'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.dsv'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.sh'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.bash'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.zsh'
+[2.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/colcon-core/packages/dofbot_moveit)
+[2.919s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_moveit2' with build type 'ament_cmake'
+[2.919s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_moveit2'
+[2.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2 -- -j12 -l12
+[3.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_msgs_v4)
+[3.098s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4' for CMake module files
+[3.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4' for CMake config files
+[3.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs_v4', 'cmake_prefix_path')
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/cmake_prefix_path.ps1'
+[3.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/cmake_prefix_path.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/cmake_prefix_path.sh'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib'
+[3.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs_v4', 'ld_library_path_lib')
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/ld_library_path_lib.ps1'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/ld_library_path_lib.dsv'
+[3.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/ld_library_path_lib.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/bin'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib/pkgconfig/dobot_msgs_v4.pc'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib/python3.10/site-packages'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/bin'
+[3.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.ps1'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.sh'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.bash'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.zsh'
+[3.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/colcon-core/packages/dobot_msgs_v4)
+[3.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_msgs_v4)
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4' for CMake module files
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4' for CMake config files
+[3.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs_v4', 'cmake_prefix_path')
+[3.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/cmake_prefix_path.ps1'
+[3.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/cmake_prefix_path.dsv'
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/cmake_prefix_path.sh'
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib'
+[3.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_msgs_v4', 'ld_library_path_lib')
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/ld_library_path_lib.ps1'
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/ld_library_path_lib.dsv'
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/hook/ld_library_path_lib.sh'
+[3.130s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/bin'
+[3.130s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib/pkgconfig/dobot_msgs_v4.pc'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib/python3.10/site-packages'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/bin'
+[3.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.ps1'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.dsv'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.bash'
+[3.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/dobot_msgs_v4/package.zsh'
+[3.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/share/colcon-core/packages/dobot_msgs_v4)
+[3.138s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup' with build type 'ament_cmake'
+[3.138s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup'
+[3.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2 -- -j12 -l12
+[3.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2
+[3.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup -- -j12 -l12
+[3.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_moveit2)
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2' for CMake module files
+[3.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description:/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2
+[3.342s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2' for CMake config files
+[3.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_moveit2', 'cmake_prefix_path')
+[3.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/hook/cmake_prefix_path.ps1'
+[3.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/hook/cmake_prefix_path.dsv'
+[3.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/hook/cmake_prefix_path.sh'
+[3.347s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/bin'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/lib/pkgconfig/dobot_moveit2.pc'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/lib/python3.10/site-packages'
+[3.349s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/bin'
+[3.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.ps1'
+[3.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.dsv'
+[3.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.sh'
+[3.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.bash'
+[3.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.zsh'
+[3.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/colcon-core/packages/dobot_moveit2)
+[3.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_moveit2)
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2' for CMake module files
+[3.356s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2' for CMake config files
+[3.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_moveit2', 'cmake_prefix_path')
+[3.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/hook/cmake_prefix_path.ps1'
+[3.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/hook/cmake_prefix_path.dsv'
+[3.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/hook/cmake_prefix_path.sh'
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/bin'
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/lib/pkgconfig/dobot_moveit2.pc'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/lib/python3.10/site-packages'
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/bin'
+[3.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.ps1'
+[3.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.dsv'
+[3.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.sh'
+[3.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.bash'
+[3.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/dobot_moveit2/package.zsh'
+[3.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_moveit2/share/colcon-core/packages/dobot_moveit2)
+[3.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_teleop build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/install.log --single-version-externally-managed install_data
+[3.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/install.log --single-version-externally-managed install_data
+[3.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record_dataset_cr5 build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log --single-version-externally-managed install_data
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop' for CMake module files
+[4.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_teleop build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/install.log --single-version-externally-managed install_data
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop' for CMake config files
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/bin'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/pkgconfig/dobot_teleop.pc'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages'
+[4.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_teleop', 'pythonpath')
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/hook/pythonpath.ps1'
+[4.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/hook/pythonpath.dsv'
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/hook/pythonpath.sh'
+[4.569s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/bin'
+[4.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_teleop)
+[4.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/package.ps1'
+[4.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/package.dsv'
+[4.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/package.sh'
+[4.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/package.bash'
+[4.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop/package.zsh'
+[4.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/colcon-core/packages/dobot_teleop)
+[4.578s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface' for CMake module files
+[4.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/install.log --single-version-externally-managed install_data
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface' for CMake config files
+[4.581s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib'
+[4.582s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/bin'
+[4.582s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/pkgconfig/openvla_ros_interface.pc'
+[4.582s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages'
+[4.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('openvla_ros_interface', 'pythonpath')
+[4.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/hook/pythonpath.ps1'
+[4.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/hook/pythonpath.dsv'
+[4.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/hook/pythonpath.sh'
+[4.586s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/bin'
+[4.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openvla_ros_interface)
+[4.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/package.ps1'
+[4.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/package.dsv'
+[4.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/package.sh'
+[4.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/package.bash'
+[4.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/openvla_ros_interface/package.zsh'
+[4.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/share/colcon-core/packages/openvla_ros_interface)
+[4.606s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5' for CMake module files
+[4.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record_dataset_cr5 build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log --single-version-externally-managed install_data
+[4.609s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5' for CMake config files
+[4.611s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib'
+[4.611s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/bin'
+[4.612s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/pkgconfig/record_dataset_cr5.pc'
+[4.612s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages'
+[4.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('record_dataset_cr5', 'pythonpath')
+[4.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/hook/pythonpath.ps1'
+[4.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/hook/pythonpath.dsv'
+[4.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/hook/pythonpath.sh'
+[4.617s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/bin'
+[4.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(record_dataset_cr5)
+[4.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/package.ps1'
+[4.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/package.dsv'
+[4.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/package.sh'
+[4.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/package.bash'
+[4.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5/package.zsh'
+[4.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/colcon-core/packages/record_dataset_cr5)
+[16.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup -- -j12 -l12
+[16.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup
+[16.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr5_bringup)
+[16.950s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup' for CMake module files
+[16.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup' returned '0': AMENT_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4:/opt/ros/humble LD_LIBRARY_PATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_msgs_v4/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup
+[16.951s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup' for CMake config files
+[16.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr5_bringup', 'cmake_prefix_path')
+[16.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/hook/cmake_prefix_path.ps1'
+[16.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/hook/cmake_prefix_path.dsv'
+[16.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/hook/cmake_prefix_path.sh'
+[16.953s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib'
+[16.953s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/bin'
+[16.953s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/pkgconfig/cr5_bringup.pc'
+[16.954s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/python3.10/site-packages'
+[16.954s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/bin'
+[16.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.ps1'
+[16.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.dsv'
+[16.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.sh'
+[16.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.bash'
+[16.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.zsh'
+[16.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/colcon-core/packages/cr5_bringup)
+[16.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cr5_bringup)
+[16.956s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup' for CMake module files
+[16.956s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup' for CMake config files
+[16.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('cr5_bringup', 'cmake_prefix_path')
+[16.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/hook/cmake_prefix_path.ps1'
+[16.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/hook/cmake_prefix_path.dsv'
+[16.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/hook/cmake_prefix_path.sh'
+[16.957s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib'
+[16.957s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/bin'
+[16.957s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/pkgconfig/cr5_bringup.pc'
+[16.957s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/lib/python3.10/site-packages'
+[16.958s] Level 1:colcon.colcon_core.environment:checking '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/bin'
+[16.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.ps1'
+[16.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.dsv'
+[16.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.sh'
+[16.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.bash'
+[16.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/cr5_bringup/package.zsh'
+[16.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yolo/Desktop/Ros2/Dofbot2/install/cr5_bringup/share/colcon-core/packages/cr5_bringup)
+[16.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.961s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.966s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.966s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.966s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.979s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.980s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/Desktop/Ros2/Dofbot2/install/local_setup.ps1'
+[16.981s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yolo/Desktop/Ros2/Dofbot2/install/_local_setup_util_ps1.py'
+[16.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/Desktop/Ros2/Dofbot2/install/setup.ps1'
+[16.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/Desktop/Ros2/Dofbot2/install/local_setup.sh'
+[16.984s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yolo/Desktop/Ros2/Dofbot2/install/_local_setup_util_sh.py'
+[16.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/Desktop/Ros2/Dofbot2/install/setup.sh'
+[16.986s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/Desktop/Ros2/Dofbot2/install/local_setup.bash'
+[16.986s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/Desktop/Ros2/Dofbot2/install/setup.bash'
+[16.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yolo/Desktop/Ros2/Dofbot2/install/local_setup.zsh'
+[16.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yolo/Desktop/Ros2/Dofbot2/install/setup.zsh'

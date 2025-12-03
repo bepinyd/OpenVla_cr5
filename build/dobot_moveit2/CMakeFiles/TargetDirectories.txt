@@ -1,0 +1,9 @@
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/uninstall.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/dobot_moveit2_uninstall.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/test.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/edit_cache.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/rebuild_cache.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/list_install_components.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/install.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/install/local.dir
+/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_moveit2/CMakeFiles/install/strip.dir

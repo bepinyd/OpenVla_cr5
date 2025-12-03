@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

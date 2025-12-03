@@ -1,0 +1,24 @@
+[2.866s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/install.log --single-version-externally-managed install_data
+[3.224s] /home/yolo/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.224s]   warnings.warn(msg)
+[3.503s] running egg_info
+[3.547s] writing ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/PKG-INFO
+[3.549s] writing dependency_links to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/dependency_links.txt
+[3.549s] writing entry points to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/entry_points.txt
+[3.550s] writing requirements to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/requires.txt
+[3.550s] writing top-level names to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/top_level.txt
+[3.651s] reading manifest file '../../build/openvla_ros_interface/openvla_ros_interface.egg-info/SOURCES.txt'
+[3.654s] writing manifest file '../../build/openvla_ros_interface/openvla_ros_interface.egg-info/SOURCES.txt'
+[3.655s] running build
+[3.655s] running build_py
+[3.656s] running install
+[3.663s] running install_lib
+[3.713s] running install_data
+[3.714s] running install_egg_info
+[3.763s] removing '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages/openvla_ros_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[3.764s] Copying ../../build/openvla_ros_interface/openvla_ros_interface.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages/openvla_ros_interface-0.0.0-py3.10.egg-info
+[3.767s] running install_scripts
+[3.862s] Installing openvla_ik script to /home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/openvla_ros_interface
+[3.863s] Installing openvla_multiscaling_ik script to /home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/openvla_ros_interface
+[3.864s] writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/install.log'
+[3.935s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/openvla_ros_interface' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/openvla_ros_interface build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/entry_points.txt
+writing requirements to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/requires.txt
+writing top-level names to ../../build/openvla_ros_interface/openvla_ros_interface.egg-info/top_level.txt
+reading manifest file '../../build/openvla_ros_interface/openvla_ros_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/openvla_ros_interface/openvla_ros_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages/openvla_ros_interface-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/openvla_ros_interface/openvla_ros_interface.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/python3.10/site-packages/openvla_ros_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing openvla_ik script to /home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/openvla_ros_interface
+Installing openvla_multiscaling_ik script to /home/yolo/Desktop/Ros2/Dofbot2/install/openvla_ros_interface/lib/openvla_ros_interface
+writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/openvla_ros_interface/install.log'

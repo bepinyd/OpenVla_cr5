@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <world name="openvla_test">
+
+ 
+    <!-- Physics configuration for Ignition Gazebo -->
+    <physics name="default_physics" default="1" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Essential plugins for Ignition Gazebo -->
+    <plugin
+      filename="ignition-gazebo-physics-system"
+      name="ignition::gazebo::systems::Physics">
+    </plugin>
+    
+    <plugin
+      filename="ignition-gazebo-user-commands-system"
+      name="ignition::gazebo::systems::UserCommands">
+    </plugin>
+    
+    <plugin
+      filename="ignition-gazebo-scene-broadcaster-system"
+      name="ignition::gazebo::systems::SceneBroadcaster">
+    </plugin>
+    
+    <!-- SENSORS SYSTEM - CRITICAL for camera to work -->
+    <plugin
+      filename="ignition-gazebo-sensors-system"
+      name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+  
+  <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+          <range>1000</range>
+          <constant>0.9</constant>
+          <linear>0.01</linear>
+          <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+  </light>
+  
+  <model name="ground_plane">
+      <static>true</static>
+     <link name="link">
+          <collision name="collision">
+              <geometry>
+                  <plane>
+                      <normal>0 0 1</normal>
+                  </plane>
+              </geometry>
+          </collision>
+          <visual name="visual">
+              <geometry>
+                  <plane>
+                      <normal>0 0 1</normal>
+                      <size>100 100</size>
+                  </plane>
+              </geometry>
+              <material>
+                  <ambient>0.8 0.8 0.8 1</ambient>
+                  <diffuse>0.8 0.8 0.8 1</diffuse>
+                  <specular>0.8 0.8 0.8 1</specular>
+              </material>
+          </visual>
+      </link>
+  </model>
+
+
+    <!-- Red Cube -->
+    <model name="red_cube">
+      <pose>0.40 0.10 0.9 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000167</ixx>
+            <iyy>0.000167</iyy>
+            <izz>0.000167</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box><size>0.1 0.1 0.1</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.1 0.1 0.1</size></box>
+          </geometry>
+          <material>
+            <ambient>1 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Green Cube -->
+    <model name="green_cube">
+      <pose>0.30 -0.30 0.9 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000167</ixx>
+            <iyy>0.000167</iyy>
+            <izz>0.000167</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box><size>0.1 0.1 0.1</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.1 0.1 0.1</size></box>
+          </geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <include>
+      <uri>
+      https://fuel.gazebosim.org/1.0/OpenRobotics/models/Dining Table
+      </uri>
+      </include>
+      <include>
+        <uri>
+        https://fuel.gazebosim.org/1.0/GoogleResearch/models/TABLEWARE_SET_5CHkPjjxVpp
+        </uri>
+        <pose>0.0 0.0 0.8 0 0 0</pose>
+        </include>
+        <!-- <include>
+        <uri>
+        https://fuel.gazebosim.org/1.0/chapulina/models/Beer
+        </uri>
+        <pose>0.5 0.0 0.78 0 0 0</pose>
+        </include>   -->
+        
+        <include>
+            <uri>
+            https://fuel.gazebosim.org/1.0/myoan/models/Movable green coke can
+            </uri>
+        <pose>-0.3 -0.2 0.9 0 0 0</pose>
+        </include>  
+    <!-- Back Wall -->
+    <model name="back_wall">
+      <static>true</static>
+      <pose>0 -2.8 1.0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box><size>3.0 0.1 2.0</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>3.0 0.1 2.0</size></box>
+          </geometry>
+          <material>
+            <ambient>0.4 0.26 0.13 1</ambient>
+            <diffuse>0.6 0.3 0.1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="camera">
+      <static>true</static>
+      <pose>0 2.6 1.8 0 0.2 -1.573</pose>
+      <link name="camera_link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000166667</ixx>
+            <iyy>0.000166667</iyy>
+            <izz>0.000166667</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.1 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 0.1 0.1</size>
+            </box>
+          </geometry>
+        </visual>
+        <sensor name="camera" type="camera">
+          <camera>
+            <horizontal_fov>0.8</horizontal_fov>
+            <image>
+              <width>1280</width>
+              <height>720</height>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>100</far>
+            </clip>
+          </camera>
+          <always_on>1</always_on>
+          <update_rate>30</update_rate>
+          <visualize>true</visualize>
+          <!-- <plugin
+            name="ros_gz_camera_plugin"
+            filename="libgz-sim-ros2-camera-system.so"> -->
+            <topic>/camera/image_raw</topic>
+            <gz_frame_id>camera_link</gz_frame_id>
+            <!-- <ignition_frame_id>camera_link</ignition_frame_id> -->
+          <!-- </plugin> -->
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>

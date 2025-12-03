@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4/cmake_install.cmake",
+		"/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4/dobot_msgs_v4__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description -- -j12 -l12

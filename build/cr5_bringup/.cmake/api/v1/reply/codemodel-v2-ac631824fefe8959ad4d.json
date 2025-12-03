@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0f682698ea008fb2269c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cr5_bringup",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cr5_bringup_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cr5_bringup_node-340ac0b349d56f29692a.json",
+					"name" : "cr5_bringup_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cr5_bringup_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cr5_bringup_uninstall-273868fad00a50c27550.json",
+					"name" : "cr5_bringup_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_control_node-944d508efc9dfbae5980.json",
+					"name" : "joystick_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1935a10cec418e3d3e84.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yolo/Desktop/Ros2/Dofbot2/build/cr5_bringup",
+		"source" : "/home/yolo/Desktop/Ros2/Dofbot2/src/cr5_bringup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

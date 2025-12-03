@@ -1,0 +1,4 @@
+Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description -- -j12 -l12
+Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description -- -j12 -l12
+Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description
+Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description

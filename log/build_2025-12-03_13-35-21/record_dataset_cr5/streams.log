@@ -1,0 +1,28 @@
+[2.842s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record_dataset_cr5 build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log --single-version-externally-managed install_data
+[3.495s] running egg_info
+[3.542s] writing ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/PKG-INFO
+[3.543s] writing dependency_links to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/dependency_links.txt
+[3.544s] writing entry points to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/entry_points.txt
+[3.544s] writing requirements to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/requires.txt
+[3.545s] writing top-level names to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/top_level.txt
+[3.642s] reading manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+[3.645s] writing manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+[3.646s] running build
+[3.646s] running build_py
+[3.647s] copying record_dataset_cr5/record.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+[3.647s] copying record_dataset_cr5/record_data.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+[3.648s] copying record_dataset_cr5/__init__.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+[3.648s] running install
+[3.662s] running install_lib
+[3.714s] copying /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5/record.py -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5
+[3.716s] byte-compiling /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5/record.py to record.cpython-310.pyc
+[3.720s] running install_data
+[3.721s] copying resource/record_dataset_cr5 -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/ament_index/resource_index/packages
+[3.722s] copying package.xml -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5
+[3.722s] running install_egg_info
+[3.781s] removing '/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5-0.0.0-py3.10.egg-info' (and everything under it)
+[3.782s] Copying ../../build/record_dataset_cr5/record_dataset_cr5.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5-0.0.0-py3.10.egg-info
+[3.785s] running install_scripts
+[3.883s] Installing teleop_node script to /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/record_dataset_cr5
+[3.883s] writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log'
+[3.929s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/record_dataset_cr5' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/record_dataset_cr5 build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log --single-version-externally-managed install_data

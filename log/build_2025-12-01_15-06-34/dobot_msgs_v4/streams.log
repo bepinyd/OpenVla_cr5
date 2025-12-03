@@ -1,0 +1,23 @@
+[0.057s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_msgs_v4 -- -j12 -l12
+[1.001s] [  0%] Built target dobot_msgs_v4__cpp
+[1.003s] [ 12%] Built target dobot_msgs_v4__rosidl_generator_c
+[1.003s] [ 12%] Built target ament_cmake_python_copy_dobot_msgs_v4
+[1.004s] [ 25%] Built target dobot_msgs_v4__rosidl_typesupport_c
+[1.004s] [ 37%] Built target dobot_msgs_v4__rosidl_typesupport_cpp
+[1.004s] [ 50%] Built target dobot_msgs_v4__rosidl_typesupport_introspection_cpp
+[1.004s] [ 63%] Built target dobot_msgs_v4__rosidl_typesupport_introspection_c
+[1.004s] [ 75%] Built target dobot_msgs_v4__rosidl_typesupport_fastrtps_cpp
+[1.004s] [ 88%] Built target dobot_msgs_v4__rosidl_typesupport_fastrtps_c
+[1.004s] [ 88%] Built target dobot_msgs_v4
+[1.004s] [ 88%] Built target dobot_msgs_v4__py
+[1.004s] [100%] Built target dobot_msgs_v4__rosidl_generator_py
+[1.004s] [100%] Built target dobot_msgs_v4__rosidl_typesupport_introspection_c__pyext
+[1.004s] [100%] Built target dobot_msgs_v4__rosidl_typesupport_c__pyext
+[1.004s] [100%] Built target dobot_msgs_v4__rosidl_typesupport_fastrtps_c__pyext
+[1.004s] running egg_info
+[1.004s] writing dobot_msgs_v4.egg-info/PKG-INFO
+[1.005s] writing dependency_links to dobot_msgs_v4.egg-info/dependency_links.txt
+[1.005s] writing top-level names to dobot_msgs_v4.egg-info/top_level.txt
+[1.017s] reading manifest file 'dobot_msgs_v4.egg-info/SOURCES.txt'
+[1.023s] writing manifest file 'dobot_msgs_v4.egg-info/SOURCES.txt'
+[1.058s] [100%] Built target ament_cmake_python_build_dobot_msgs_v4_egg

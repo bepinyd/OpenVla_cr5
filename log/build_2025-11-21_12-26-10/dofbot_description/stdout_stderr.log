@@ -1,0 +1,92 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_description
+-- Install configuration: ""
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf/gripper.xacro
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf/gazebo.xacro
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf/ros2_control.xacro
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf/new_cr5.xacro
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf/camera.xacro
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/urdf/cr5_robot.ros2_control.xacro
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/config
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/config/ros2_controllers.yaml
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/config/gz_bridge.yaml
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/launch
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/launch/display.launch.py
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/launch/gazebo2.launch.py
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/worlds
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/worlds/openvla_test.world
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/worlds/cr.world
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_knuckle.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_inner_knuckle.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_knuckle.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/robotiq_base.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/Link4.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/robotiq_base.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/Link3.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/ur_to_robotiq_adapter.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_finger_tip.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_finger_tip.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/ur_to_robotiq_adapter.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_finger.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_finger_tip.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/base_link.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_finger.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_knuckle.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_inner_knuckle.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/Link6.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_knuckle.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_inner_knuckle.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/right_inner_knuckle.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/Link1.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/Link2.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/Link5.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_finger.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_finger_tip.stl
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/meshes2/cr5/left_finger.dae
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/ament_index/resource_index/package_run_dependencies/dofbot_description
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/ament_index/resource_index/parent_prefix_path/dofbot_description
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/environment/path.sh
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/environment/path.dsv
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/local_setup.bash
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/local_setup.sh
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/local_setup.zsh
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/local_setup.dsv
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.dsv
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/ament_index/resource_index/packages/dofbot_description
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/cmake/dofbot_descriptionConfig.cmake
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/cmake/dofbot_descriptionConfig-version.cmake
+-- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_description/share/dofbot_description/package.xml

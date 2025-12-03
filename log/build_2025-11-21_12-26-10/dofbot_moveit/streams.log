@@ -1,0 +1,68 @@
+[0.041s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake /home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_moveit -DCMAKE_INSTALL_PREFIX=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit
+[0.911s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.911s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.911s]   CMake.
+[0.912s] 
+[0.912s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.912s]   to tell CMake that the project requires at least <min> but has been updated
+[0.912s]   to work with policies introduced by <max> or earlier.
+[0.912s] 
+[0.912s] [0m
+[0.912s] -- The C compiler identification is GNU 11.4.0
+[0.912s] -- The CXX compiler identification is GNU 11.4.0
+[0.913s] -- Detecting C compiler ABI info
+[0.913s] -- Detecting C compiler ABI info - done
+[0.913s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.913s] -- Detecting C compile features
+[0.913s] -- Detecting C compile features - done
+[0.913s] -- Detecting CXX compiler ABI info
+[0.913s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.913s] -- Detecting CXX compile features
+[0.913s] -- Detecting CXX compile features - done
+[0.913s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.104s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.331s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.512s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.512s] -- Configured cppcheck include dirs: 
+[1.512s] -- Configured cppcheck exclude dirs and/or files: 
+[1.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.516s] -- Added test 'lint_cmake' to check CMake code style
+[1.518s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.523s] -- Added test 'uncrustify' to check C / C++ code style
+[1.523s] -- Configured uncrustify additional arguments: 
+[1.524s] -- Added test 'xmllint' to check XML markup files
+[1.526s] -- Configuring done (1.3s)
+[1.532s] -- Generating done (0.0s)
+[1.534s] -- Build files have been written to: /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit
+[1.540s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake /home/yolo/Desktop/Ros2/Dofbot2/src/dofbot_moveit -DCMAKE_INSTALL_PREFIX=/home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit
+[1.543s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit -- -j12 -l12
+[1.866s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --build /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit -- -j12 -l12
+[1.869s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit
+[2.040s] -- Install configuration: ""
+[2.041s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config
+[2.041s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/joint_limits.yaml
+[2.041s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/moveit_controllers.yaml
+[2.042s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/pilz_cartesian_limits.yaml
+[2.042s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/cr5_robot.srdf
+[2.042s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/initial_positions.yaml
+[2.043s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/moveit.rviz
+[2.043s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/config/kinematics.yaml
+[2.044s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/launch
+[2.044s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/launch/launch_moveit.launch.py
+[2.044s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/ament_index/resource_index/package_run_dependencies/dofbot_moveit
+[2.045s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/ament_index/resource_index/parent_prefix_path/dofbot_moveit
+[2.045s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.sh
+[2.045s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/ament_prefix_path.dsv
+[2.046s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/path.sh
+[2.046s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/environment/path.dsv
+[2.046s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.bash
+[2.047s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.sh
+[2.047s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.zsh
+[2.047s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/local_setup.dsv
+[2.048s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.dsv
+[2.048s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/ament_index/resource_index/packages/dofbot_moveit
+[2.048s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig.cmake
+[2.049s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/cmake/dofbot_moveitConfig-version.cmake
+[2.049s] -- Installing: /home/yolo/Desktop/Ros2/Dofbot2/install/dofbot_moveit/share/dofbot_moveit/package.xml
+[2.052s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/yolo/.local/bin/cmake --install /home/yolo/Desktop/Ros2/Dofbot2/build/dofbot_moveit

@@ -1,0 +1,3 @@
+[console_scripts]
+openvla_ik = openvla_ros_interface.openvla_ik:main
+openvla_multiscaling_ik = openvla_ros_interface.openvla_multiscaling_ik:main

@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/record_dataset_cr5/record_dataset_cr5.egg-info
+writing ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/PKG-INFO
+writing dependency_links to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/dependency_links.txt
+writing requirements to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/requires.txt
+writing top-level names to ../../build/record_dataset_cr5/record_dataset_cr5.egg-info/top_level.txt
+writing manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+reading manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+writing manifest file '../../build/record_dataset_cr5/record_dataset_cr5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+copying record_dataset_cr5/record_data.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+copying record_dataset_cr5/__init__.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5
+running install
+running install_lib
+creating /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5
+copying /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5/record_data.py -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5
+copying /home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/build/lib/record_dataset_cr5/__init__.py -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5
+byte-compiling /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5/record_data.py to record_data.cpython-310.pyc
+byte-compiling /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/ament_index/resource_index/packages
+copying resource/record_dataset_cr5 -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/ament_index/resource_index/packages
+copying package.xml -> /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/share/record_dataset_cr5
+running install_egg_info
+Copying ../../build/record_dataset_cr5/record_dataset_cr5.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/record_dataset_cr5/lib/python3.10/site-packages/record_dataset_cr5-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/record_dataset_cr5/install.log'

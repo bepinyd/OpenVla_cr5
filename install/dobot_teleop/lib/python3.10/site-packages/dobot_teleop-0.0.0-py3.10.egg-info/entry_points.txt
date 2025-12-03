@@ -1,0 +1,2 @@
+[console_scripts]
+teleop_node = dobot_teleop.teleop:main

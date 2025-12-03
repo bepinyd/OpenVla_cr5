@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: dofbot_description
+    relative_path: urdf/new_cr5.xacro
+  srdf:
+    relative_path: config/cr5_robot.srdf
+  package_settings:
+    author_name: Om Mandhane
+    author_email: ommandhane27@gmail.com
+    generated_timestamp: 1756297266
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

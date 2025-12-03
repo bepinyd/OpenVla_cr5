@@ -1,0 +1,25 @@
+[2.911s] Invoking command in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_teleop build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/install.log --single-version-externally-managed install_data
+[3.570s] running egg_info
+[3.611s] writing ../../build/dobot_teleop/dobot_teleop.egg-info/PKG-INFO
+[3.612s] writing dependency_links to ../../build/dobot_teleop/dobot_teleop.egg-info/dependency_links.txt
+[3.612s] writing entry points to ../../build/dobot_teleop/dobot_teleop.egg-info/entry_points.txt
+[3.613s] writing requirements to ../../build/dobot_teleop/dobot_teleop.egg-info/requires.txt
+[3.613s] writing top-level names to ../../build/dobot_teleop/dobot_teleop.egg-info/top_level.txt
+[3.713s] reading manifest file '../../build/dobot_teleop/dobot_teleop.egg-info/SOURCES.txt'
+[3.716s] writing manifest file '../../build/dobot_teleop/dobot_teleop.egg-info/SOURCES.txt'
+[3.717s] running build
+[3.717s] running build_py
+[3.717s] copying dobot_teleop/teleop.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build/lib/dobot_teleop
+[3.718s] copying dobot_teleop/__init__.py -> /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build/lib/dobot_teleop
+[3.719s] running install
+[3.728s] running install_lib
+[3.776s] running install_data
+[3.777s] copying resource/dobot_teleop -> /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/ament_index/resource_index/packages
+[3.778s] copying package.xml -> /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/share/dobot_teleop
+[3.778s] running install_egg_info
+[3.826s] removing '/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages/dobot_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[3.827s] Copying ../../build/dobot_teleop/dobot_teleop.egg-info to /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages/dobot_teleop-0.0.0-py3.10.egg-info
+[3.830s] running install_scripts
+[3.928s] Installing teleop_node script to /home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/dobot_teleop
+[3.929s] writing list of installed files to '/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/install.log'
+[3.973s] Invoked command in '/home/yolo/Desktop/Ros2/Dofbot2/src/dobot_teleop' returned '0': PYTHONPATH=/home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yolo/Desktop/Ros2/Dofbot2/install/dobot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_teleop build --build-base /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/build install --record /home/yolo/Desktop/Ros2/Dofbot2/build/dobot_teleop/install.log --single-version-externally-managed install_data

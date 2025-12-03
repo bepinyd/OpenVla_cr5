@@ -1,0 +1,3 @@
+[console_scripts]
+record_me = record_dataset_cr5.record:main
+record_om = record_dataset_cr5.record_data:main
